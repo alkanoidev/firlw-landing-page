@@ -1,0 +1,15 @@
+footer{
+    background: var(--darkgrey);
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+footer > p{
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,85 @@
+header > .preheader{
+    background: var(--darkgrey);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    color: #ACAEAF;
+    
+}
+header > .preheader > .left{
+    float: left;
+    padding-left: 220px;
+    
+}
+header > .preheader > .left > p > span{
+    color: white;
+}
+header > .preheader > .right{
+    float: right;
+    padding-right: 200px;
+}
+header > .preheader >.right > ul > li{
+    display: inline-block;
+}
+header > .preheader > .right > ul > li > a{
+    color: #ACAEAF;
+    text-decoration: none;
+    padding-right: 35px;
+    transition: 0.5s;
+}
+header > .preheader > .right > ul > li > a:hover{
+    transform: scale(120%);
+}
+header > .preheader > .right > li > a > .doublebars{
+    color: #595a5c;
+}
+.header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 220px;
+}
+.header > img{
+    padding-left: 220px;
+}
+.header > ul > li{
+    display: inline-block;
+}
+.header > ul > li > a{
+    color: #848484;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    padding-right: 5px;
+    transition: 0.5s;
+}
+.header > ul > li > a:hover{
+    text-decoration: underline;
+    transform: scale(120%);
+}
+.header ul li a span .doublebars-gradient{
+    color: rgb(82,166,234);
+    color: linear-gradient(90deg, rgba(82,166,234,1) 0%, rgba(53,30,192,1) 100%);
+}
+.header ul li .freequote{
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    width: 100px;
+    height: 40px;
+    background: rgb(53,30,192);
+    font-weight: bolder;
+    font-size: 12px;
+    transition: 1s;
+}
+.header ul li .freequote:hover{
+    text-decoration: underline;
+    transform: scale(120%);
+} 

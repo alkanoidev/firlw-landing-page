@@ -1,0 +1,47 @@
+.aboutus{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../images/aboutus/home-01-bg-video2.jpg");
+    background-size: cover;
+    color: white;
+}
+.aboutus > #left > #line{
+    opacity: 0.5;
+}
+.aboutus > #left > #bigpic{
+    width: 600px;
+    height: 600px;
+}
+.aboutus > #left > h6{
+    font-size: 15px;
+    text-transform: uppercase; 
+    padding-left: 10px;
+}
+.aboutus > #left > .check > h6{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.aboutus > #left > h2 {
+    font-size: 45px;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.aboutus > #left > p{
+    font-size: 20px;
+    padding: 10px;
+    line-height: 1.5;
+}
+.aboutus > #left{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.aboutus > #left > .check{
+    display: flex;
+    padding: 10px;
+}

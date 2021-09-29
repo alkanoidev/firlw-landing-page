@@ -1,0 +1,48 @@
+.booktrial{
+    height: 500px;
+    background-image: url("../images/booktrial/footer-bg-purple_OP.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.booktrial > .back{
+    width: 500px;
+    height: 200px;
+    background-image: url("../images/booktrial/cta-decoration-margins_OPT.png");
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-repeat: no-repeat;
+}
+.booktrial > .back > img{
+    padding-bottom: 10px;
+}
+.booktrial > .back > h2{
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.booktrial > .back h4{
+    font-size: 14px;
+    text-transform: capitalize;
+    opacity: 0.7;
+    padding-bottom: 40px;
+}
+.booktrial > .back > button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    padding: 10px;
+    display: inline;
+    text-transform: uppercase;
+    background: none;
+    color: white;
+    transition: 0.5s;
+}
+.booktrial > .back > button:hover{
+    padding: 20px;
+}

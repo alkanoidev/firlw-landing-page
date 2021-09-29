@@ -1,0 +1,46 @@
+.hero{
+    height: 600px;
+    background-image: url("../images/header/header-home01-header.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.hero > div{
+    padding-left: 400px;
+    width: 850px;
+}
+.hero > div > .line{
+    width: 20px;
+    height: 8px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+.hero > div > .p1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.hero > div > .p2{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+.hero > div > button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    background: rgb(86,41,241);
+    background: linear-gradient(90deg, rgba(86,41,241,1) 0%, rgba(56,83,245,1) 100%);
+    transition: 1s;
+}
+.hero > div > button:hover{
+    background: rgb(86,41,241);
+    background: linear-gradient(-90deg, rgba(86,41,241,1) 0%, rgba(56,83,245,1) 100%);
+    transform: scale(120%);
+}

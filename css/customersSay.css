@@ -1,0 +1,88 @@
+.customers-say{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.customers-say > #heading{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 40px;
+}
+.customers-say > #heading > h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.customers-say > #heading > #blue-rect{
+    width: 5px;
+    height: 5px;
+    background: #276CF9;
+    margin-bottom: 10px;
+}
+.customers-say > #heading > p{
+    color: rgb(175, 175, 175);
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+.customers-say > #cards > .card{
+    width: 250px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    margin-left: 30px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: 0.5s;
+}
+.customers-say > #cards > .card:hover{
+    transform: scale(120%);
+}
+.customers-say > #cards{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.customers-say > #cards > #first{
+    background-image: url("../images/testimonial/testimonial-O6YV3J0-370x370.jpg");
+    background-position: center;
+}
+.customers-say > #cards > #second{
+    background-image: url("../images/testimonial/testimonial-O70LL00-370x370.jpg");
+    background-position: center;
+}
+.customers-say > #cards > #third{
+    background-image: url("../images/testimonial/testimonial-631643-PO9AAH-590-370x370.jpg");
+    background-position: center;
+}
+.customers-say > #cards > #fourth{
+    background-image: url("../images/testimonial/testimonial-677993-PPUB4P-401-370x370.jpg");
+    background-position: center;
+}
+.customers-say > #cards > .card > .overbg{
+    width: 250px;
+    height: 350px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.3) 17%, rgba(255,255,255,0.2) 50%, rgba(0,0,0,0.3) 81%);
+    position: absolute;
+}
+.customers-say > #cards > .card > h2{
+    color: whitesmoke;
+    text-transform: uppercase;
+    z-index: 10;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.customers-say > #cards > .card > p{
+    color: whitesmoke;
+    text-transform: uppercase;
+    z-index: 10;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}

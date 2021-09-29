@@ -1,0 +1,106 @@
+.plans{
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.plans > .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.plans > .title > h6{
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bolder;
+    color: rgb(86,41,241);
+}
+.plans > .title > p{
+    color: grey;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.plans > .title > h2{
+    text-transform: uppercase;
+    color: var(--darkgrey);
+    font-size: 36px;
+}
+.plans > .cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 20px;
+    align-items: center; 
+}
+.plans > .cards > .card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+    width: 300px;
+    height: 550px;
+    background: rgb(23,23,23);
+    background: linear-gradient(22deg, rgba(23,23,23,1) 60%, rgba(43,43,43,1) 100%, rgba(158,158,158,1) 100%);
+    box-shadow: 20px 20px 22px rgb(0 0 0 / 20%);
+    justify-content: center;
+    transition: 1s
+}
+.plans > .cards > .card:hover{
+    background: rgb(19,2,57);
+    background: linear-gradient(22deg, rgba(19,2,57,1) 0%, rgba(88,0,136,1) 50%, rgba(40,76,164,1) 100%);
+}
+.plans > .cards > .card > h2{
+    text-transform: uppercase;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.plans > .cards > .card > p{
+    font-size: 12px;
+}
+.plans > .cards > .card > h3{
+    font-size: 42px;
+}
+.plans > .cards > .card > h4{
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.plans > .cards > .card > task > p{
+    font-size: 20px;
+}
+.plans > .cards > .card > task > br{
+    background: #533B65;
+    width: 150px;
+}
+.plans > .cards > #three > #star{
+    font-size: 15px;
+    color: gray;
+}
+.plans > .cards > .card > button{
+    width: 150px;
+    height: 20px;
+    color: white;
+    background: rgb(8,149,253);
+    background: linear-gradient(90deg, rgba(8,149,253,1) 0%, rgba(45,99,247,1) 100%);
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.plans > .cards > .card > button:hover{
+    padding: 30px;
+}
+.plans > .cards > .card > .task .inline{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+}

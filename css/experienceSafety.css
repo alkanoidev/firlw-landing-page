@@ -1,0 +1,32 @@
+.experience-safety{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: url("../images/expSafety/home-01-bg-video2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.experience-safety > .p1{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 100px;
+    font-weight: bolder;
+    color: rgb(86,41,241);
+    color: linear-gradient(90deg, rgba(86,41,241,1) 0%, rgb(40, 67, 218) 100%);
+}
+.experience-safety > h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    color: white;
+}
+.experience-safety > .desc{
+    padding-top: 20px;
+    color: #979797;
+    font-size: 20px;
+    line-height: 25px;
+    font-stretch: wider;
+    padding-bottom: 50px;
+    width: 400px;
+    text-align: center;
+}

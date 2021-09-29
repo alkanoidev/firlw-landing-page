@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@1,700&display=swap');
+@import url("header.css");
+@import url("hero.css");
+@import url("ourservices.css");
+@import url("experienceSafety.css");
+@import url("customersSay.css");
+@import url("aboutUs.css");
+@import url("trainingSeminars.css");
+@import url("getInTouch.css");
+@import url("plans.css");
+@import url("booktrial.css");
+@import url("footer.css");
+:root{
+    --darkgrey: #121212;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    
+}

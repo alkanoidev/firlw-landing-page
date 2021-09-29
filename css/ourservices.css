@@ -1,0 +1,88 @@
+/* .our-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+.our-services > .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.our-services > .text >.p1{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 100px;
+    font-weight: bolder;
+    color: rgb(86,41,241);
+    color: linear-gradient(90deg, rgba(86,41,241,1) 0%, rgb(40, 67, 218) 100%);
+}
+.our-services > .text > .h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    color: var(--darkgrey);
+}
+.our-services > .text > .p2{
+    padding-top: 20px;
+    color: #979797;
+    font-size: 20px;
+    line-height: 25px;
+    font-stretch: wider;
+    padding-bottom: 50px;
+    width: 400px;
+}
+.our-services > .three-cont{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 125px;
+}
+.our-services > .three-cont > .base{
+    width: 400px;
+    height: 600px;
+    background: rgb(23,23,23);
+    background: linear-gradient(22deg, rgba(23,23,23,1) 60%, rgba(43,43,43,1) 100%, rgba(158,158,158,1) 100%);
+    box-shadow: 20px 20px 22px rgb(0, 0, 0, 0.2);
+    border-radius: 2%;
+    text-align: center;
+    transition: 0.5s;
+}
+.our-services > .three-cont > .base:hover{
+    background: rgb(19,2,57);
+    background: linear-gradient(22deg, rgba(19,2,57,1) 0%, rgba(88,0,136,1) 50%, rgba(40,76,164,1) 100%);
+}
+.our-services > .three-cont > .base > div > h2{
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+}
+.our-services > .three-cont > .base > div > p{
+    color: #A1A2A3;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 45px;
+}
+
+.our-services > .three-cont > #second > div > p{
+    color: #A1A2A3;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 45px;
+}
+.our-services > .three-cont > .base > div > .info-n-plans{
+    border: 2px solid white;
+    width: 140px;
+    height: 25px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+    background: transparent;
+    padding: 10px;
+    text-decoration: none;
+}
