@@ -37,8 +37,9 @@
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
-    padding-left: 300px;
-    padding-right: 300px;
+    gap: 20px;
+    /* padding-left: 300px;
+    padding-right: 300px; */
     padding-bottom: 125px;
 }
 .our-services > .three-cont > .base{
@@ -49,7 +50,6 @@
     box-shadow: 20px 20px 22px rgb(0, 0, 0, 0.2);
     border-radius: 2%;
     text-align: center;
-    transition: 0.5s;
 }
 .our-services > .three-cont > .base:hover{
     background: rgb(19,2,57);
